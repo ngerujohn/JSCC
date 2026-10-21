@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e2a16e;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.card{
+    width: 400px;
+    background-color: #fff0dd;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+textarea{
+    width: 100%;
+   padding: 0.3rem;
+}
